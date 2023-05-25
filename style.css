@@ -1,0 +1,463 @@
+:root {
+  ---sc-color: #8aae92;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3fff4;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 3;
+}
+
+.nav-color {
+  background-color: var(---sc-color);
+  transition: all ease-in-out 0.5s;
+}
+
+* {
+  z-index: 2;
+}
+.img-hero {
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-weight: 650;
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 650;
+}
+.primary.mx-4 {
+  font-weight: 400;
+  border: none;
+  width: 60px;
+  height: 24px;
+  background-color: transparent;
+  color: #fff;
+}
+.secondary {
+  width: 133px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  background-color: #f4f9f4;
+  color: var(---sc-color);
+}
+
+.secondary:hover {
+  width: 133px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  background-color: var(---sc-color);
+  color: #f4f9f4;
+}
+/* Hero*/
+#hero {
+  background: linear-gradient(170deg, var(---sc-color), #c4e3cb);
+  height: 100vh;
+  width: 100%;
+}
+.img-hero {
+  height: 100%;
+}
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+}
+.hero-tagline p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+.button-1g-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: var(---sc-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+.button-1g-primary:hover {
+  width: 237px;
+  height: 70px;
+  background-color: var(---sc-color);
+  color: #ffff;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.col-md-6 {
+  margin-top: 130px;
+}
+/* Section Layanan */
+#layanan {
+  padding: 100px 0;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: var(---sc-color);
+}
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
+  transition: all 0.1s ease-in;
+}
+.circel-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #8aae92;
+  border-radius: 50%;
+  transition: all 0.1s ease-in;
+}
+.card-layanan h3 {
+  font-size: 24px;
+  color: #8aae92;
+  transition: all 0.2s ease-in;
+}
+.card-layanan p {
+  font-size: 14px;
+  color: #000;
+  transition: all 0.2s ease-in;
+}
+/* Hover */
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #8aae92;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
+  transition: all 0.2s ease-in;
+}
+.circel-icon:hover {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.card-layanan:hover h3 {
+  font-size: 24px;
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+.card-layanan:hover p {
+  font-size: 14px;
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+/* Seacrh Section*/
+#search {
+  background-image: url(img/background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#search h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 72px;
+  color: #fff;
+  font-style: normal;
+  text-align: center;
+}
+#search p {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 72px;
+  color: #fff;
+  font-style: normal;
+  text-align: center;
+}
+.input-cari {
+  height: 58px;
+}
+.input-cari:focus {
+  border: none;
+}
+.input-cari .button-secondry {
+  border: none;
+  height: 58px;
+  width: 200px;
+  background-color: #fff;
+  color: var(---sc-color);
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 0 0 0 10px;
+}
+.input-cari .button-primary {
+  width: 135px;
+  height: 58px;
+  background-color: #8aae92;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+}
+
+.nav-tabs {
+  border: none;
+}
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 0;
+  color: #000;
+  font-weight: 200;
+}
+.nav-tabs .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px 0 0 0;
+}
+
+/* Section Rekomendasi */
+
+.card {
+  height: 469px;
+  width: 90%;
+  border: none;
+  cursor: pointer;
+}
+.card-body h4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 0.8rem;
+}
+.card-body p {
+  color: #454545;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card:hover {
+  background-color: var(---sc-color);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+  transition: all ease-in-out 0.2s;
+}
+.card:hover .card-body h4 {
+  color: #ffff;
+  transition: all ease-in-out 0.3s;
+}
+.card:hover .card-body p {
+  color: #ffff;
+  transition: all ease-in-out 0.3s;
+}
+.card-fasilitas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  background-color: #fff;
+}
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 18px;
+  color: #000;
+}
+.card-fasilitas p {
+  font-size: 12px;
+}
+
+/* Fitur */
+.button-fitur {
+  width: 238px;
+  height: 63px;
+  background-color: var(---sc-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.button-fitur:hover {
+  width: 238px;
+  height: 63px;
+  background-color: var(---sc-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+#fitur h2 {
+  font-size: 40px;
+  font-weight: 550;
+  line-height: 72px;
+}
+
+.card-fitur h5 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+}
+.card-fitur span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+}
+.card-fitur h6 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 36px;
+}
+.card-fitur button {
+  width: 150px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  background-color: var(---sc-color);
+  color: white;
+}
+.card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+}
+.card-fitur .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  transition: all ease-in-out 0.2s;
+}
+.button-arrow-left {
+  border: none;
+  background-color: var(---sc-color);
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  padding: 0;
+}
+.button-arrow-right {
+  border: none;
+  background-color: var(---sc-color);
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  padding: 0;
+  margin-right: 7px;
+}
+/* Contact */
+#contact {
+  background-image: url(img/bg1.png);
+  margin-top: 158px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+#contact .container {
+  padding: 108px 0 148px 0;
+}
+.col-md-6 h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.col-md-6 h6 {
+  color: white;
+  padding-top: 15px;
+}
+.col-md-6 img {
+  padding: 10px;
+}
+.col-md-6 a {
+  color: white;
+}
+.card-kontak {
+  width: 100%;
+  height: 445px;
+  background-color: #fff;
+  padding: 52px 48px;
+  border-radius: 8px;
+}
+.card-kontak h2 {
+  padding-bottom: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: var(---sc-color);
+  line-height: 60px;
+}
+.form-control {
+  background-color: #c4c4c4;
+}
+.form-floating label {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.card-kontak button {
+  width: 100%;
+  height: 75px;
+  background-color: var(---sc-color);
+  color: #fff;
+  border: none;
+  font-size: 24px;
+}
+.card-kontak button:hover {
+  width: 100%;
+  height: 75px;
+  background-color: var(---sc-color);
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 270px;
+  background-color: #000;
+}
+.copyright {
+  bottom: 1%;
+  color: #fff;
+  font-size: 14px;
+}
+
+.col-md-7 a {
+  color: #fff;
+  text-decoration: none;
+}
+.col-md-5 a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width : 922px){
+    #rekomendasi{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width : 576px){
+    .hero-tagline h1{
+         line-height: 52px;
+    }
+    .img-hero{
+        width: 75%;
+        height: auto;
+        
+    }
+    h2{
+        font-size: 34px;
+    }
+    .sub-tittle{
+        font-size: 16px;
+    }
+    .card-layanan{
+        margin: 15px 0;
+    }
+    #search h2{
+        font-size: 42px;
+        line-height: 62px;
+    }
+    #search p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .input-cari .button-secondry{
+        width: 50%;
+        height: 60px;
+        border-radius: 0 0 0 0;
+    }
+    .input-cari .button-primary{
+        width: 50%;
+        height: 60px;
+        font-size: 16px;
+    }
+    #rekomendasi h2{
+        font-size: 30px;
+    }
+    #rekomendasi{
+        margin-top: 100px;
+    }
+    .button-fitur{
+        width: 100%;
+    }
+    .button-fitur:hover{
+        width: 100%;
+    }
+    
+    
+}
+@media screen and (max-width :350px){
+    
+}
